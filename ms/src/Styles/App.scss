@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(241, 237, 227);
+}
+
+h2 {
+    color: black;
+}
+
+.header {
+    
+    .logoBar {
+        background-color: rgb(241, 237, 227);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    
+        .logoImg {
+            width: 12rem;
+            padding: 1em;
+        }
+    
+        .characterImg {
+            width: 100%;
+        }
+
+        .endSection {
+            max-width: 100%;    
+        }
+    }
+}
+
+
+
+.body {
+
+    color: black;
+    text-align: center;
+
+    .navbar {
+        background-color: rgb(168, 158, 139);
+    }
+
+    #link-style {
+        color: #ffffff;
+        font-weight: 400;
+      }
+      
+      #link-style:hover {
+        font-weight: 300;
+      }
+      
+      .app-container {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+    
+    .bodyImages {
+        display: flex;
+        flex-direction: row;
+
+        .pers1 {
+            max-width: 55%;
+            opacity: 12%;
+        }
+
+        .pers2 {
+            max-width: 45%;
+            opacity: 12%;
+            padding-right: 0px;
+        }
+    }  
+
+    .escrita {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -250px;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(56, 59, 59);
+    color: white;
+}
